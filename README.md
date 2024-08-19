@@ -1,8 +1,29 @@
-# React + Vite
+# Product List App with Redux
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+The Product List App is a React application that uses Redux for state management. It fetches and displays a list of products from a Google Drive file. The application includes features for displaying detailed product information, including title, description, price, discount, rating, stock, brand, category, thumbnail, and images.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- Fetches product data from a Google Drive file.
+- Manages state using Redux.
+- Displays detailed information about each product.
+- Shows product thumbnails and images.
+
+## Prerequisites
+
+Ensure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (version 14 or later)
+- [npm](https://www.npmjs.com/) (comes with Node.js)
+
+## Getting Started
+
+To set up and run the project locally, follow these steps:
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/your-username/cart-app.git
+   cd cart-app
